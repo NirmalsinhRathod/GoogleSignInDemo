@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization.m \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Target\ Support\ Files/GTMAppAuth/GTMAppAuth-prefix.pch \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/GTMSessionFetcher/GTMSessionFetcher.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/AppAuthCore.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDAuthState.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDAuthStateChangeDelegate.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDAuthStateErrorDelegate.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationRequest.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentRequest.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDResponseTypes.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDScopes.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationResponse.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationService.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDError.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDErrorUtilities.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgent.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentSession.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDGrantTypes.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDIDToken.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDRegistrationRequest.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDRegistrationResponse.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDScopeUtilities.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDServiceConfiguration.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDServiceDiscovery.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDTokenRequest.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDTokenResponse.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDTokenUtilities.h \
+  /Users/creolemacmini02/Documents/CreoleProject/NEHA/React-demo-projects/GoogleSignInDemo/ios/Pods/Headers/Private/AppAuth/OIDURLSessionProvider.h
