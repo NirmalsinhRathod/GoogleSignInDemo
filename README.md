@@ -45,65 +45,66 @@ https://github.com/react-native-community/react-native-google-signin/blob/master
 1. In the Xcode, select your project -> open the GoogleService-Info.plist
 2. Copy the REVERSED_CLIENT_ID 
 3. Paste the REVERSED_CLIENT_ID into the URL type for that
-- select your project -> in target select your project and select info tab
-- Go to the URL_TYPES and paste that REVERSED_CLIENT_ID into the URL schemes
+    - select your project -> in target select your project and select info tab
+    - Go to the URL_TYPES and paste that REVERSED_CLIENT_ID into the URL schemes
 4. Open the AppDelegate.m file 
-- Add this line of code
-```sh 
-#import <RNGoogleSignin.h>
-
-- (BOOL)application:(UIApplication *)application openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<NSString *,id> *)options {
-return [RNGoogleSignin application:application openURL:url options:options];
-}
+    - Add this line of code
+        ```sh 
+         #import <RNGoogleSignin.h>
+         
+         - (BOOL)application:(UIApplication *)application openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<NSString *,id> *)options {
+            return [RNGoogleSignin application:application openURL:url options:options];
+         }
+         
 ### Android Guide
 1. Go to your firebase console and import the project or create new project and download the GoogleService.json file after adding the SHA1
 2. Please note that this package requires android gradle plugin of version >= 3, which in turn requires at least gradle 4.1. Android studio should be able to do the upgrade for you.
 3. Update the android/build.gradle with
-```
-buildscript {
-ext {
-buildToolsVersion = "27.0.3"
-minSdkVersion = 16
-compileSdkVersion = 27
-targetSdkVersion = 26
-supportLibVersion = "27.1.1"
-googlePlayServicesAuthVersion = "16.0.1" // <--- use this version or newer
-}
-...
-dependencies {
-classpath 'com.android.tools.build:gradle:3.1.2' // <--- use this version or newer
-classpath 'com.google.gms:google-services:4.1.0' // <--- use this version or newer
-}
-...
-allprojects {
-repositories {
-mavenLocal()
-google() // <--- make sure this is included
-jcenter()
-maven {
-// All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
-url "$rootDir/../node_modules/react-native/android"
-}
-}
-}
-```
+    ```
+        buildscript {
+        ext {
+            buildToolsVersion = "27.0.3"
+            minSdkVersion = 16
+            compileSdkVersion = 27
+            targetSdkVersion = 26
+            supportLibVersion = "27.1.1"
+            googlePlayServicesAuthVersion = "16.0.1" // <--- use this version or newer
+        }
+    ...
+        dependencies {
+            classpath 'com.android.tools.build:gradle:3.1.2' // <--- use this version or newer
+            classpath 'com.google.gms:google-services:4.1.0' // <--- use this version or newer
+        }
+    ...
+    allprojects {
+        repositories {
+            mavenLocal()
+            google() // <--- make sure this is included
+            jcenter()
+            maven {
+                // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+                url "$rootDir/../node_modules/react-native/android"
+            }
+        }
+    }
+    ```
 4. Update android/app/build.gradle with
-```
-dependencies {
-implementation fileTree(dir: "libs", include: ["*.jar"])
-implementation "com.android.support:appcompat-v7:23.0.1"
-implementation "com.facebook.react:react-native:+"
-implementation(project(":react-native-google-signin"))
-}
-apply plugin: 'com.google.gms.google-services' // <--- this should be the last line
-```
+    ```
+    dependencies {
+        implementation fileTree(dir: "libs", include: ["*.jar"])
+        implementation "com.android.support:appcompat-v7:23.0.1"
+        implementation "com.facebook.react:react-native:+"
+        implementation(project(":react-native-google-signin"))
+    }
+    apply plugin: 'com.google.gms.google-services' // <--- this should be the last line
+    ```
 5. If you used react-native link than you should have this line in your android/settings.gradle file 
-``` 
-include ':react-native-google-signin', ':app'
-project(':react-native-google-signin').projectDir = new File(rootProject.projectDir,'../node_modules/@react-native-community/google-signin/android')
-```
+    ``` 
+    include ':react-native-google-signin', ':app'
+    project(':react-native-google-signin').projectDir = new File(rootProject.projectDir,'../node_modules/@react-native-community/google-signin/android')
+    ```
 6.  Open your MainApplicaiton.Java file from your project
-import the package and add 
-```  import co.apptailor.googlesignin.RNGoogleSigninPackage;```
-Add this line into getPackages()  method
-``` new RNGoogleSigninPackage() ```
+    import the package and add 
+    ```  import co.apptailor.googlesignin.RNGoogleSigninPackage;```
+    Add this line into getPackages()  method
+    ``` new RNGoogleSigninPackage() ```
